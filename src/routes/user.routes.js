@@ -12,10 +12,10 @@ router.route("/register").post(
     },
     {
       name: "coverImage",
-      maxCount: 1, // ek hi image upload kar sakte hai
+      maxCount: 1,
     },
   ]),
   registerUser
-);
+); 
 
 export default router;
