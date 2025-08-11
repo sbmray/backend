@@ -13,9 +13,10 @@ connectDB() //this return a promise so use .then and .catch
       console.log(
         `server is running at port: http://localhost:${process.env.PORT}`
       );
-    });
+    });  
   })
 
   .catch((err) => {
     console.log("MONGO DB connection failed !!!", err);
   });
+ 
